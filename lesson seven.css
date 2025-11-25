@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.parenty {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.left {
+
+    width: 20%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.left img {
+    width: 60%;
+    padding: 3px;
+}
+#imgOne{
+    border: 3px solid red;
+}
+.center {
+   
+    width: 30%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+
+}
+#imgtwo{
+    width: 80%;
+    padding: 3px;
+
+}
+
+.right {
+   
+    width: 40%;
+    height: 100vh;
+
+}
+.section{
+    font-size: 0.8em;
+    margin-top: 20px;
+    font-style: bold;
+
+    
+}
+.section span{
+    font-size:0.6em ;
+
+}
+h1{
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+.star{
+    margin-top: 15px;
+    color: orangered;
+
+}
+.mainpoint{
+    display: flex;
+}
+
+.linkOne{
+    display: flex;
+}
+.linkTwo{
+    display: flex;
+}
+.linkTree{
+    display: flex;
+}
+.mainpoint p{
+  font-size: 0.8em;
+  margin-left: 8px;
+
+}
+.linkOne p{
+    font-size: 0.8em;
+  margin-left: 8px;
+
+}
+.linkTwo p{
+     font-size: 0.8em;
+  margin-left: 8px;
+    
+}
+.linkTree p{
+    font-size: 0.8em;
+  margin-left: 8px;
+}
+
+   
+.actions{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+#one{
+    border: 2px solid orangered;
+    padding: 3px;
+}
+.actionstwo{
+     display: flex;
+    gap: 40px;
+    margin-top: 20px;
+
+}
+hr{
+   margin-top: 10px;
+}
+.qiimaha span{
+    color: rgb(180, 180, 180);
+    text-decoration: line-through;
+
+}
+.plusicon{
+    display: flex;
+}
+.fa-solid fa-plus{
+    margin-top: 10px;
+}
+
+
